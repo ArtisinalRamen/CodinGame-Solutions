@@ -1,4 +1,3 @@
-# https://www.codingame.com/training/easy/horse-racing-duals
 # Both functions/methods are functionally idential however
 # Using list comprehension is barely faster due to the avoidance of the list.append() function
 def GetMinDiffUsingListComprehension(nums: list[int]) -> int:
@@ -20,8 +19,7 @@ numOfHorses: int = int(input())
 horseStrengths: list[int] = []
 
 for i in range(numOfHorses):
-    strength: int = int(input()) 
-    horseStrengths.append(strength)
+    horseStrengths.append(int(input()))
 
 horseStrengths.sort()
 print(GetMinDiffUsingListComprehension(horseStrengths))
