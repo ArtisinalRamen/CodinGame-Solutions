@@ -57,8 +57,7 @@ double CalcDistance(Position a, Position b) {
     return result;
 }
 
-int main()
-{
+int main() {
     struct Defibrillator {
         int id;
         std::string name;

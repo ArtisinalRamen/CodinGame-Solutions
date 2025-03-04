@@ -30,6 +30,5 @@ int main() {
       unaryMessage.append("0");
     }
   }
-
   std::cout << unaryMessage << std::endl;
 }

@@ -1,7 +1,6 @@
 #include <iostream>
 // https://www.codingame.com/training/easy/temperatures
-int main()
-{
+int main() {
     int n; // the number of temperatures to analyse
     std::cin >> n; std::cin.ignore();
     

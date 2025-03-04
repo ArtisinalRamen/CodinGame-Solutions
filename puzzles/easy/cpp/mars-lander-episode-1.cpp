@@ -1,8 +1,7 @@
 #include <iostream>
 // https://www.codingame.com/training/easy/mars-lander-episode-1
 
-int main()
-{
+int main() {
     int surface_n; // the number of points used to draw the surface of Mars.
     std::cin >> surface_n; std::cin.ignore();
     for (int i = 0; i < surface_n; i++) {

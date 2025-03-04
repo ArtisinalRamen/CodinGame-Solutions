@@ -2,8 +2,7 @@
 #include <string>
 // https://www.codingame.com/training/medium/shadows-of-the-knight-episode-1
 
-int main()
-{
+int main() {
     int w; // width of the building.
     int h; // height of the building.
     std::cin >> w >> h; std::cin.ignore();

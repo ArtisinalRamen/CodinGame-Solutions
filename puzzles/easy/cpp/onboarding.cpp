@@ -2,8 +2,7 @@
 #include <string>
 // https://www.codingame.com/training/easy/onboarding
 
-int main()
-{
+int main() {
 	std::string enemy_1; // name of enemy 1
 	std::string enemy_2; // name of enemy 2
 	int dist_1; // distance to enemy 1

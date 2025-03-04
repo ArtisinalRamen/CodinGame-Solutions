@@ -2,8 +2,7 @@
 #include <string>
 // https://www.codingame.com/training/easy/ascii-art
 
-int main()
-{
+int main() {
     const int ASCII_UPPERCASE_ALPHABET_OFFSET = 65; // Uppercase 'A' has an ASCII value of 65
     int length; // Length of the ASCII art representations of an alphabetical character or '?'
     int height; // Height of the ASCII art representations of an alphabetical character or '?'

@@ -5,8 +5,7 @@
 // https://www.codingame.com/training/medium/death-first-search-episode-1
 
 
-int main()
-{
+int main() {
     struct Node {
         std::vector<int> neighbours;
         bool isGateway = false;
