@@ -48,8 +48,7 @@ bool FloodFill(int* grid, int* visited, int size, int x, int y) {
     return false;
 }
 
-int main()
-{
+int main() {
     int size;
     std::cin >> size; std::cin.ignore();
     int grid[size * size];
