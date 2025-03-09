@@ -16,8 +16,7 @@ int main() {
   std::string ext; // file extension
   std::string mt;  // MIME type.
   std::unordered_map<std::string, std::string> assocTable;
-  std::unordered_map<std::string, std::string>::const_iterator
-      assocTableIterator;
+  std::unordered_map<std::string, std::string>::const_iterator assocTableIterator;
 
   for (int i = 0; i < n; i++) {
     std::cin >> ext >> mt;
